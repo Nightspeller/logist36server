@@ -1,0 +1,25 @@
+Новая заявка на участие в Логистическом Альянсе.<br />
+{{#mailData}}
+    Название организации {{title}}<br />
+    Краткое описание {{shortDescription}}<br />
+    Год основания {{year}}<br />
+    Юридический адрес{{urAddress}}<br />
+    Фактический адрес {{factAddress}}<br />
+    Адрес склада {{stockAddress}}<br />
+    Телефон {{phone}}<br />
+    Электронная почта {{email}}<br />
+    Веб сайт {{website}}<br />
+    Руководитель {{director}}<br />
+    Главный бухгалтер {{accountant}}<br />
+    ИНН {{inn}}<br />
+    ОКВЕД {{okved}}<br />
+    Подробное описание деятельности {{fullDescription}}<br />
+    Автопарк {{autopark}}<br />
+    Количество персонала {{stuff}}<br />
+    Дополнительная информация {{additionalInfo}}<br />
+    Контактное лицо {{contactPerson}}<br />
+    Контактный телефон {{contactPhone}}<br />
+    Контактный e-mail {{contactEmail}}<br />
+    Ваши ожидания {{hopes}}<br />
+    Ваши предложения {{proposials}}<br />
+{{/mailData}}

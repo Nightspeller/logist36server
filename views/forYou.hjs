@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Альянс Логистов Воронежа</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="container">
+    <section class="row">
+        <div class="col-sm-3" id="globalLogoAndSideNav">{{{header}}}</div>
+        <div class="col-sm-9">
+            <nav class="row topNav" id="topNav">{{{topNav}}}</nav>
+            <!--Main content goes here-->
+            <article class="panel panel-primary mainContent">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Альянс Логистов Воронежа (АЛВ)</h3>
+                </div>
+                <div class="panel-body">
+                    <h3>Здравствуйте, мы рады приветствовать вас на нашем ресурсе!</h3>
+                    <img src="img/forYou.jpg" class="pull-right">
+                    <p>Альянс Воронежских Логистов создан для того, чтобы каждый мог познакомиться с
+                        партнерами для своего бизнеса, воплотить в жизнь новый проект, получить или
+                        поделиться опытом, найти информацию, которая будет полезна Вам и Вашим
+                        сотрудникам, и, несомненно, обзавестись друзьями. Мы начали работу под
+                        девизом: «Равные возможности для всех!»</p>
+                    <p>Любой вид общения или сотрудничества на данном ресурсе происходит прозрачно, и
+                        каждая компания может использовать свои возможности на 100%.</p>
+                    <p><strong>Участники</strong> - Транспортно-логистические компании – проверенные и положительно
+                        зарекомендовавшие себя организации, работающие не один год на рынке логистических
+                        услуг и способные выполнять любые комплексные работы для производственных или
+                        торговых компаний.</p>
+                    <p><strong>Партнеры</strong> – любые компании, работающие в сфере В2В, которые могут способствовать
+                        развитию и улучшению деятельности Участников, Партнеров и Торгово-производственных компаний.</p>
+                    <p><strong>Торгово-производственные компании</strong> – компании, способные успешно сотрудничать
+                        и развиваться совместно с Альянсом Логистов Воронежа. Сотрудники компаний в сфере
+                        логистики имеют возможность свободно общаться, принимать участие в круглых столах, получать опыт и знания.</p>
+                    <p><strong>Организаторы</strong> - также являются участниками и действуют на общих основаниях.</p>
+                    <p>На нашем ресурсе Вы сможете: найти информацию о предстоящих мероприятиях,
+                        посвященных логистике; принять участие в конференциях или круглых столах; обсудить
+                        с коллегами интересующую Вас тему на форуме или получить ответ юриста по спорным
+                        вопросам; принять участие в общественных проектах; найти партнеров для своего
+                        бизнеса; ознакомиться с последними изменениями в законодательстве и еще много интересного и полезного.</p>
+                </div>
+                <div class="panel-footer">Для получения доступа к информации на сайте, Вам необходимо зарегистрироваться, регистрация не займет много времени.</div>
+            </article>
+        </div>
+    </section>
+    <!--<footer id="globalFooter"></footer>-->
+    {{{footer}}}
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.10.2.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<!--Template lib-->
+<script src="js/underscore.js"></script>
+<script src="js/handlebars-v1.1.2.js"></script>
+<!-- My js -->
+<script src="js/main.js"></script>
+</body>
+</html>

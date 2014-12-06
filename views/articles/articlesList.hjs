@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Альянс Логистов Воронежа</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="container">
+    <section class="row">
+        <div class="col-sm-3" id="globalLogoAndSideNav">{{{header}}}</div>
+        <div class="col-sm-9">
+            <nav class="row topNav" id="topNav">{{{topNav}}}</nav>
+            <!--Main content goes here-->
+
+            <article class="panel panel-primary mainContent">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Статьи рекомендуемые Aльянсом</h3>
+                </div>
+                <div class="panel-body">
+                    У нас Вы можете узнать много интересного!
+                </div>
+                <ul class="list-group">
+                    {{#allArticles}}
+                        <a href="articles?articleID={{_id}}" class="liLink">
+                            <li class="list-group-item clearfix">
+                                <img src="img/articles/{{logo}}" class="pull-right">
+                                <h3>{{title}}</h3>
+                                <p>
+                                    {{{shortDescription}}}
+                                </p>
+                            </li>
+                        </a>
+                        {{#user._id}}
+                            <div>
+                                <a href="addArticle?{{_id}}" class="btn btn-success">Редактировать</a>
+                                <button data-id="{{_id}}" class="deleteButton btn btn-danger pull-right">Удалить</button>
+                            </div>
+                        {{/user._id}}
+                    {{/allArticles}}
+                </ul>
+                <div class="panel-footer">
+                    Только качественная информация!
+                    {{#user}}
+                        <a class="btn btn-primary" href="addArticle">Добавить статью</a>
+                    {{/user}}
+                </div>
+            </article>
+
+        </div>
+    </section>
+    {{{footer}}}
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.10.2.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+<ul class="nav nav-pills">
+    <li class="col-xs-4"><a href="moreAboutUs">О нас</a></li>
+    <li class="col-xs-4"><a href="forYou">Для вас</a></li>
+    <li class="col-xs-4"><a href="registration">Регис&shy;трация</a></li>
+</ul>

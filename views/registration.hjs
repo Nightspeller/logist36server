@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Альянс Логистов Воронежа</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="container">
+    <section class="row">
+        <div class="col-sm-3" id="globalLogoAndSideNav">{{{header}}}</div>
+        <div class="col-sm-9">
+            <nav class="row topNav" id="topNav">{{{topNav}}}</nav>
+            <!--Main content goes here-->
+            <div class="mainContent">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs nav-justified">
+                <li class="active"><a href="#participant" data-toggle="tab">Для участника</a></li>
+                <li><a href="#partner" data-toggle="tab">Для партнера</a></li>
+                <li><a href="#user" data-toggle="tab">Для пользователя</a></li>
+                <li><a href="#oneMore" data-toggle="tab">Еще</a></li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content mainContent">
+            <div class="tab-pane active" id="participant">
+                <article class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Регистрация в качестве участника альянса</h3>
+                    </div>
+                    <div class="panel-body">
+                        Для регистрации в качестве участника альянса, пожалуйста, заполните следующую анкету.<br />
+                        Она будет рассмотрена в кратчайшие сроки, после чего представитель альянса свяжется с Вами для получения дополнительной информации и рассказа о Ваших возможностях.
+                        <h4 class="text-center">Условия для вступления нового участника в союз.</h4>
+                        <ol>
+                            <li>Участником может стать каждая Воронежская компания, работающая на рынке логистических услуг более трех лет.</li>
+                            <li>Организация обязана иметь в собственности автотранспорт или складские помещения.</li>
+                            <li>Наличие официального сайта компании.</li>
+                            <li>Новый участник обязан предоставить Совету «Альянса Логистов Воронежа»:
+                                заполненную анкету участника, копию свидетельство ИНН, приказ о назначении директора.</li>
+                        </ol>
+                    </div>
+                    <form id="regNewParticipant">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <label>Название организации</label>
+                                <input type="text" name="title" placeholder="Название организации" />
+                            </li>
+                            <li class="list-group-item">
+                                <label>Краткое описание</label>
+                                <input type="text" name="shortDescription" placeholder="Краткое описание" />
+                            </li>
+                            <li class="list-group-item">
+                                <label>Год основания</label>
+                                <input type="text" name="year" placeholder="Год основания" />
+                            </li>
+                            <li class="list-group-item">
+                                <label>Юридический адрес</label>
+                                <input type="text" name="urAddress" placeholder="Юридический адрес" />
+                            </li>
+                            <li class="list-group-item">
+                                <label>Фактический адрес</label>
+                                <input type="text" name="factAddress" placeholder="Фактический адрес" />
+                            </li>
+                            <li class="list-group-item">
+                                <label>Адрес склада</label>
+                                <input type="text" name="stockAddress" placeholder="Адрес склада" />
+                            </li>
+                            <li class="list-group-item">
+                                <label>Телефон</label>
+                                <input type="text" name="phone" placeholder="Телефон" />
+                            </li>
+                            <li class="list-group-item">
+                                <label>Электронная почта</label>
+                                <input type="text" name="email" placeholder="Электронная почта" />
+                            </li>
+                            <li class="list-group-item">
+                                <label>Веб сайт</label>
+                                <input type="text" name="website" placeholder="Веб сайт" />
+                            </li>
+                            <li class="list-group-item">
+                                <label>Руководитель</label>
+                                <input type="text" name="director" placeholder="Руководитель" />
+                            </li>
+                            <li class="list-group-item">
+                                <label>Главный бухгалтер</label>
+                                <input type="text" name="accountant" placeholder="Главный бухгалтер" />
+                            </li>
+                            <li class="list-group-item">
+                                <label>ИНН</label>
+                                <input type="text" name="inn" placeholder="ИНН" />
+                            </li>
+                            <li class="list-group-item">
+                                <label>ОКВЕД</label>
+                                <input type="text" name="okved" placeholder="ОКВЕД" />
+                            </li>
+                            <li class="list-group-item">
+                                <label>Подробное описание деятельности</label>
+                                <input type="text" name="fullDescription" placeholder="Подробное описание деятельности" />
+                            </li>
+                            <li class="list-group-item">
+                                <label>Автопарк</label>
+                                <input type="text" name="autopark" placeholder="Автопарк" />
+                            </li>
+                            <li class="list-group-item">
+                                <label>Количество персонала</label>
+                                <input type="text" name="stuff" placeholder="Количество персонала" />
+                            </li>
+                            <li class="list-group-item">
+                                <label>Дополнительная информация</label>
+                                <input type="text" name="additionalInfo" placeholder="Дополнительная информация" />
+                            </li>
+                            <li class="list-group-item">
+                                <label>Контактное лицо</label>
+                                <input type="text" name="contactPerson" placeholder="Контактное лицо" />
+                            </li>
+                            <li class="list-group-item">
+                                <label>Контактный телефон</label>
+                                <input type="text" name="contactPhone" placeholder="Контактный телефон" />
+                            </li>
+                            <li class="list-group-item">
+                                <label>Контактный e-mail</label>
+                                <input type="text" name="contactEmail" placeholder="Контактный e-mail" />
+                            </li>
+                            <li class="list-group-item">
+                                <label>Ваши ожидания </label>
+                                <textarea name="hopes" placeholder="Ваши ожидания"></textarea>
+                            </li>
+                            <li class="list-group-item">
+                                <label>Ваши предложения</label>
+                                <textarea name="proposals" placeholder="Ваши предложения"></textarea>
+                            </li>
+                        </ul>
+                        <button type="submit" class="btn btn-primary">Отправить</button>
+                    </form>
+                    <div class="panel-footer">Если необходимо, тут можно кратко разместить подытоживающее предложение.</div>
+                </article>
+            </div>
+            <div class="tab-pane" id="partner">
+                <article class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Регистрация в качестве партнера альянса</h3>
+                    </div>
+                    <div class="panel-body">
+                        Для регистрации в качестве партнера альянса, пожалуйста, заполните следующую анкету.<br />
+                        Она будет рассмотрена в кратчайшие сроки, после чего представитель альянса свяжется с Вами для получения дополнительной информации и рассказа о Ваших возможностях.
+                    </div>
+                    <form>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                Полное название организации <br>
+                                <input type="text" placeholder="Полное название оргинизации">
+                            </li>
+                            <li class="list-group-item">
+                                Год основания <br>
+                                <input type="text" placeholder="Год основания">
+                            </li>
+                            <li class="list-group-item">
+                                Адрес юридический <br>
+                                <input type="text" placeholder="Адрес юридический">
+                            </li>
+                            <li class="list-group-item">
+                                Адрес фактический <br>
+                                <input type="text" placeholder="Адрес фактический">
+                            </li>
+                            <li class="list-group-item">
+                                Телефон/факс <br>
+                                <input type="tel" placeholder="Телефон/факс">
+                            </li>
+                            <li class="list-group-item">
+                                Е-mail <br>
+                                <input type="email" placeholder="Е-mail">
+                            </li>
+                            <li class="list-group-item">
+                                Сайт компании <br>
+                                <input type="text" placeholder="Сайт компании">
+                            </li>
+                            <li class="list-group-item">
+                                Руководитель <br>
+                                <input type="text" placeholder="Руководитель">
+                            </li>
+                            <li class="list-group-item">
+                                Бухгалтер <br>
+                                <input type="text" placeholder="Бухгалтер">
+                            </li>
+                            <li class="list-group-item">
+                                ИНН <br>
+                                <input type="text" placeholder="ИНН">
+                            </li>
+                            <li class="list-group-item">
+                                ОКВЭД <br>
+                                <input type="text" placeholder="ОКВЭД">
+                            </li>
+                            <li class="list-group-item">
+                                Описание деятельности компании <br>
+                                <textarea placeholder="Описание деятельности компании"></textarea>
+                            </li>
+                            <li class="list-group-item">
+                                Направление сотрудничества <br>
+                                <textarea placeholder="Направление сотрудничества"></textarea>
+                            </li>
+                            <li class="list-group-item">
+                                Количество постоянного штата сотрудников <br>
+                                <input type="text" placeholder="Количество постоянного штата сотрудников">
+                            </li>
+                            <li class="list-group-item">
+                                Дополнительная характеристика <br>
+                                <textarea placeholder="Дополнительная характеристика"></textarea>
+                            </li>
+                            <li class="list-group-item">
+                                Контактное лицо <br>
+                                <input type="text" placeholder="Контактное лицо">
+                            </li>
+                            <li class="list-group-item">
+                                Его контактный телефон, e-mail <br>
+                                <input type="text" placeholder="Его контактный телефон, e-mail">
+                            </li>
+                            <li class="list-group-item">
+                                Ваши ожидания <br>
+                                <textarea placeholder="Ваши ожидания"></textarea>
+                            </li>
+                            <li class="list-group-item">
+                                Ваши предложения <br>
+                                <textarea placeholder="Ваши предложения"></textarea>
+                            </li>
+                        </ul>
+                        <button type="submit" class="btn-primary">Отправить</button>
+                    </form>
+                    <div class="panel-footer">Если необходимо, тут можно кратко разместить подытоживающее предложение.</div>
+                </article>
+            </div>
+            <div class="tab-pane" id="user">
+                <article class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Регистрация в качестве пользователя</h3>
+                    </div>
+                    <!--                    <div class="panel-body">
+                                            Для регистрации в качестве пользователя, пожалеуйста, заполните следующую анкету. <br />
+                                            Она будет рассмотрена в кратчайшие сроки, после чего представитель ассоциации свяжется с Вами для
+                                            получения дополнительной информации и рассказа о Ваших новых возможностях, бонусах и привелегиях.<br />
+                                        </div>-->
+                    <form>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                Полное название организации <br>
+                                <input type="text" placeholder="Полное название оргинизации">
+                            </li>
+                            <li class="list-group-item">
+                                Описание деятельности компании <br>
+                                <textarea placeholder="Описание деятельности компании"></textarea>
+                            </li>
+
+                            <li class="list-group-item">
+                                Контактное лицо <br>
+                                <input type="text" placeholder="Контактное лицо">
+                            </li>
+                            <li class="list-group-item">
+                                Е-mail <br>
+                                <input type="email" placeholder="Е-mail">
+                            </li>
+                        </ul>
+                        <button type="submit" class="btn-primary">Отправить</button>
+                    </form>
+                    <div class="panel-footer">Если необходимо, тут можно кратко разместить подытоживающее предложение.</div>
+                </article>
+            </div>
+            <div class="tab-pane" id="oneMore">
+                <article class="panel panel-primary mainContent">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Регистрации в качестве участника альянса</h3>
+                    </div>
+                    <div class="panel-body">
+                        Для регистрации в качестве участника альянса, пожалеуйста, заполните следующую анкету. <br />
+                        Она будет рассмотрена в кратчайшие сроки, после чего представитель альянса свяжется с Вами для
+                        получения дополнительной информации и рассказа о Ваших новых возможностях, бонусах и привелегиях.<br />
+                    </div>
+
+                    <div class="panel-footer">В ближайшее время с вами свяжется представитель АВЛ для уточнения данных, указанных в регистрационной форме.</div>
+                </article>
+            </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!--<footer id="globalFooter"></footer>-->
+    {{{footer}}}
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.10.2.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<!--Template lib-->
+<script src="js/underscore.js"></script>
+<script src="js/handlebars-v1.1.2.js"></script>
+<!-- My js -->
+<script src="js/main.js"></script>
+</body>
+</html>

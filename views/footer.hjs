@@ -1,0 +1,30 @@
+<footer class="row well">
+    <div class="col-md-4">
+        <ul>
+            <li><a href="council">Совет портала</a></li>
+            <li><a href="participants">Участники</a></li>
+            <li><a href="partners">Партнеры</a></li>
+            <li><a href="companies">Промышленно-торговые компании</a></li>
+            <li><a href="#">Органы власти</a></li>
+            <li><a href="educations">Учебные заведения</a></li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <ul>
+            <li><a href="events">Круглые столы и мероприятия</a></li>
+            <li><a href="forum">Форум</a></li>
+            <li><a href="articles">Статьи</a></li>
+            <li><a href="#">Ответы юриста</a></li>
+            <li><a href="#">Законодательство</a></li>
+            <li><a href="news">Новости</a></li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <ul>
+            <li><a href="#">Выбрать компанию для своего проекта</a></li>
+            <li><a href="#">Текущие проекты</a></li>
+            <li><a href="#">Архив</a></li>
+            <li><a href="login">Администрация</a></li>
+        </ul>
+    </div>
+</footer>

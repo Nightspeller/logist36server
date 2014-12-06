@@ -1,0 +1,16 @@
+{
+    "port" : 3000,
+    "mongoose": {
+        "uri": "mongodb://localhost/test"
+    },
+    "session": {
+        "secret": "BigBigSecret",
+        "key": "sid",
+        "cookie": {
+            "path": "/",
+            "httpOnly": true,
+            "maxAge": null
+        }
+    },
+    "registrationEmail": "serj.nights@gmail.com"
+}

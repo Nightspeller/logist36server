@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Альянс Логистов Воронежа</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]><script src="js/html5shiv.js"></script><script src="js/respond.min.js"></script><![endif]-->
+</head>
+<body>
+<div class="container">
+    <section class="row">
+        <div class="col-sm-3" id="globalLogoAndSideNav">{{{header}}}</div>
+        <div class="col-sm-9">
+            <nav class="row topNav" id="topNav">{{{topNav}}}</nav>
+            <!--Main content goes here-->
+            <article class="panel panel-primary mainContent">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Добавление нового учебного заведения</h3>
+                </div>
+                <div class="panel-body">
+                    <form id="educationForm" class="newRecordForm">
+                        <h3>Пожалуйста, тщательно заполните все поля!</h3>
+                        <label>Название заведения</label>
+                        <input type="text" name="title" placeholder="Название заведения" />
+                        <label>Краткое описание</label>
+                        <input type="text" name="shortDescription" placeholder="Краткое описание" />
+                        <label>Полное описание</label>
+                        <input type="text" name="fullDescription" placeholder="Полное описание" />
+
+                        <label>Изображение</label>
+                        <input type="file" multiple="multiple" name="picture" placeholder="Изображение" value="Изображение" />
+                        <input type="submit" value="Опубликовать!" />
+                    </form>
+                </div>
+                <div class="panel-footer">Спасибо!</div>
+            </article>
+        </div>
+    </section>
+    {{{footer}}}
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.10.2.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

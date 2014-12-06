@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Альянс Логистов Воронежа</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="container">
+    <section class="row">
+        <div class="col-sm-3" id="globalLogoAndSideNav">{{{header}}}</div>
+        <div class="col-sm-9">
+            <nav class="row topNav" id="topNav"></nav>
+            <!--Main content goes here-->
+
+            <article class="panel panel-primary mainContent">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        {{^user}}Вход на сайт{{/user}}
+                        {{#user}}Выход{{/user}}
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <div class="middleBlock">
+                        {{^user}}
+                            <form id="loginForm">
+                                <div id="errorMessage" class="text-danger text-center"></div>
+                                <input type="text" name="login" placeholder="Имя пользователя"/>
+                                <input type="password" name="password" placeholder="Пароль" />
+                                <input type="submit" value="Войти" class="btn btn-primary"/>
+                            </form>
+                        {{/user}}
+                        {{#user}}
+                            <h4>Вы вошли в систему как <br />"{{user.username}}"</h4>
+                            <button id="logoutButton" class="btn btn-primary">Выйти</button>
+                        {{/user}}
+                    </div>
+                </div>
+                <div class="panel-footer"></div>
+            </article>
+
+        </div>
+    </section>
+    {{{footer}}}
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.10.2.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
