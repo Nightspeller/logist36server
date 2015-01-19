@@ -21,11 +21,11 @@
                 <li><a href="participants">Участники</a></li>
                 <li><a href="partners">Партнеры</a></li>
                 <li><a href="companies">Промышленно-торговые компании</a></li>
+                <li><a href="educations">Учебные заведения</a></li>
                 <li><a href="#">Органы власти</a></li>
                 <li class="divider"></li>
                 <li><a href="council">Совет портала</a></li>
-                <li class="divider"></li>
-                <li><a href="educations">Учебные заведения</a></li>
+
             </ul>
         </div></li>
         <li><div class="btn-group dropleft">
@@ -55,14 +55,14 @@
         </div></li>
     </ul>
     <address class="alert alert-info">
-        <strong>Андреев Андрей</strong><br />
+        <strong>Андреев Андрей Викторович</strong><br />
         Директор <br />НП «Альянс Воронежских Логистов»<br />
         <strong>Тел:</strong> +7 (903) 653-99-77<br />
         <strong>E-mail:</strong> andreev@lanks.org<br />
         <br />
-        <strong>Нестерова Ольга</strong><br />
+        <strong>Шеина Татьяна Анатольевна</strong><br />
         Заместитель директора<br /> НП «Альянс Воронежских Логистов»<br />
-        <strong>Тел:</strong> +7(920) 225-47-47 <br />
-        <strong>E-mail:</strong> snesterov@ilgroup.ru
+        <strong>Тел:</strong> +7 (903) 420-16-92<br />
+        <strong>E-mail:</strong> pr@ilgroup.ru
     </address>
 </nav>
