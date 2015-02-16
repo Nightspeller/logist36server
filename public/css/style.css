@@ -23,7 +23,8 @@ body {
   width: 90%;
 }
 .sideNav .dropdown-toggle,
-.sideNav .dropdown-menu {
+.sideNav .dropdown-menu,
+.sideNav .dropdown-order {
   text-align: left;
   min-width: 100%;
 }

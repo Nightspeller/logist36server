@@ -9,10 +9,11 @@ var educations = require('./educations');
 var articles = require('./articles');
 var login = require('./login');
 var logout = require('./logout');
+var order = require('./order');
 var checkAuth = require('../middleware/checkAuth');
 
 module.exports = function(app){
-    app.get('/', mainPage.mainPage);
+   /* app.get('/', mainPage.mainPage);*/
     //restful event services
     app.get('/events', events.getAllEvents);
     app.get('/eventsJSON', events.getAllEventsJSON);
@@ -87,6 +88,10 @@ module.exports = function(app){
     app.get('/login', login.get);
     app.post('/login', login.post);
     app.post('/logout', logout.post);
+
+    //order
+    app.get('/order', order.orderObject(app).sendPage);
+    app.post('/order', order.orderObject(app).sendFormViaEmail);
 
     //registration
     app.get('/registration', registration.registrationObject(app).sendPage);

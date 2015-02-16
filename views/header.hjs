@@ -44,14 +44,9 @@
             </ul>
         </div></li>
         <li><div class="btn-group">
-            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                Проекты <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Выбрать компанию для проекта</a></li>
-                <li><a href="#">Текущие проекты</a></li>
-                <li><a href="#">Архив</a></li>
-            </ul>
+            <a class="btn btn-default dropdown-order" href="order">
+                Сделать заказ
+            </a>
         </div></li>
     </ul>
     <address class="alert alert-info">
