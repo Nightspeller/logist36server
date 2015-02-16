@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Альянс Логистов Воронежа</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="container">
+    <section class="row">
+        <div class="col-sm-3" id="globalLogoAndSideNav">{{{header}}}</div>
+        <div class="col-sm-9">
+            <nav class="row topNav" id="topNav">{{{topNav}}}</nav>
+            <!--Main content goes here-->
+            <div class="mainContent">
+
+                <article class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Регистрация на прохождение курса "Логистический менеджмент"</h3>
+                    </div>
+                    <div class="panel-body">
+                        Подать заявку на прохождение курса "Логистический менеджмент".
+                    </div>
+                    <form id="regNewParticipant">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <label>Имя Фамилия Отчество</label>
+                                <input type="text" name="fio" placeholder="Имя Фамилия Отчество" />
+                            </li>
+                            <li class="list-group-item">
+                                <label>Организация</label>
+                                <input type="text" name="company" placeholder="Организация" />
+                            </li>
+                            <li class="list-group-item">
+                                <label>Контактный телефон</label>
+                                <input type="text" name="phone" placeholder="Контактный телефон" />
+                            </li>
+                            <li class="list-group-item">
+                                <label>E-mail</label>
+                                <input type="text" name="email" placeholder="E-mail" />
+                            </li>
+                            <li class="list-group-item">
+                                <label>Пожелания и комментарии</label>
+                                <input type="text" name="comments" placeholder="Пожелания и комментарии" />
+                            </li>
+                        </ul>
+                        <button type="submit" class="btn btn-primary">Отправить</button>
+                    </form>
+                    <div class="panel-footer">Спасибо!</div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!--<footer id="globalFooter"></footer>-->
+    {{{footer}}}
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.10.2.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<!--Template lib-->
+<script src="js/underscore.js"></script>
+<script src="js/handlebars-v1.1.2.js"></script>
+<!-- My js -->
+<script src="js/main.js"></script>
+</body>
+</html>

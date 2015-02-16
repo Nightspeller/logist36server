@@ -1,5 +1,6 @@
 var mainPage = require('./mainPage');
 var registration = require('./registration');
+var educationRegistration = require('./educationRegistration');
 var events = require('./events');
 var news = require('./news');
 var participants = require('./participants');
@@ -96,6 +97,10 @@ module.exports = function(app){
     //registration
     app.get('/registration', registration.registrationObject(app).sendPage);
     app.post('/registration', registration.registrationObject(app).sendFormViaEmail);
+
+    //education registration
+    app.get('/educationRegistration', educationRegistration.registrationObject(app).sendPage);
+    app.post('/educationRegistration', educationRegistration.registrationObject(app).sendFormViaEmail);
 
 
     //top buttons pages
