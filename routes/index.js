@@ -14,7 +14,7 @@ var order = require('./order');
 var checkAuth = require('../middleware/checkAuth');
 
 module.exports = function(app){
-   /* app.get('/', mainPage.mainPage);*/
+    app.get('/', mainPage.mainPage);
     //restful event services
     app.get('/events', events.getAllEvents);
     app.get('/eventsJSON', events.getAllEventsJSON);
