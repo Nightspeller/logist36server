@@ -270,6 +270,7 @@ function orderButtonsHandler(){
     if (window.location.pathname === '/order'){
         $('#newOrder').submit(function(event){
             event.preventDefault();
+            alert('Заявка отправлена!');
             var formData = new FormData($(this)[0]);
             $.ajax({
                 url: '/order',
@@ -278,7 +279,6 @@ function orderButtonsHandler(){
                 contentType: false,
                 type: 'POST',
                 success: function(data){
-                    alert('Заявка отправлена!');
                     console.log('Success: ', data)
                 },
                 error: function(error){
