@@ -46,10 +46,7 @@ app.configure(function(){
         secureConnection: true, // use SSL
         port: 465, // port for secure SMTP
         transportMethod: 'SMTP', // default is SMTP. Accepts anything that nodemailer accepts
-        auth: {
-            user: 'sidorov.serg@lanks.org',
-            pass: 'serg9html'
-        }
+        auth: config.get('auth')
     });
 });
 
