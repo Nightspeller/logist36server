@@ -20,7 +20,6 @@ app.use(express.logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded());
 app.use(express.methodOverride());
-app.use(require('stylus').middleware(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public')));
 
 // development only
@@ -49,7 +48,7 @@ app.configure(function(){
         transportMethod: 'SMTP', // default is SMTP. Accepts anything that nodemailer accepts
         auth: {
             user: 'sidorov.serg@lanks.org',
-            pass: ''
+            pass: 'serg9html'
         }
     });
 });
