@@ -28,7 +28,7 @@
                     <h3 class="panel-title">Учебные заведения рекомендуемые Aльянсом</h3>
                 </div>
                 <div class="panel-body">
-                    <a href="registration.html" class="btn-lg btn-success pull-right">Стать партнером</a>
+                    <a href="registration" class="btn-lg btn-success pull-right">Стать партнером</a>
                     У нас Вы можете получить профессию, связанную с логистикой, или повысить квалификацию.
                 </div>
                 <ul class="list-group">

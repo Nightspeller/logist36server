@@ -28,7 +28,7 @@
                     <h3 class="panel-title">Партнеры альянса</h3>
                 </div>
                 <div class="panel-body">
-                    <a href="registration.html" class="btn-lg btn-success pull-right">Стать партнером</a>
+                    <a href="registration" class="btn-lg btn-success pull-right">Стать партнером</a>
                     Работать на выгодных условиях всегда приятно!
                 </div>
                 <ul class="list-group"  id="mainParticipantsList">

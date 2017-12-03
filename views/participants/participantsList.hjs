@@ -28,7 +28,7 @@
                     <h3 class="panel-title">Транспортно-логистические компании – участники альянса!</h3>
                 </div>
                 <div class="panel-body">
-                    <a href="registration.html" class="btn-lg btn-success pull-right">Стать участником</a>
+                    <a href="registration" class="btn-lg btn-success pull-right">Стать участником</a>
                     Все участники проверены временем и делом, мы ждем Вас в наших рядах!
                 </div>
                 <ul class="list-group"  id="mainParticipantsList">
